@@ -18,17 +18,11 @@ radial-gradient(circle at 50% 50%, #0b272a 0%, #06191b 100%);
   background: var(--color-cabeceras);
 }
 
-.nav-item .nav-link{
-  color: var(--color-texto);
-}   
+.nav-item .nav-link{color: var(--color-texto);}   
 
-.letra{
-  color: var(--color-texto);
-}
+.letra{color: var(--color-texto);}
 
-h2{
-margin-bottom:30px;
-}
+h2{margin-bottom:30px;}
 
 figure{
 position:relative;
@@ -108,7 +102,6 @@ transform:scale(1.05);
     margin:0;
     color: var(--color-fondo);
     font-size: 22px;
-
 }
 
 .cajas{
@@ -235,6 +228,12 @@ color:var(--color-texto);
   object-fit: contain;
   margin: 0 25px;
   flex-shrink: 0;
+}
+
+.mapa{
+  width:100%;
+  border:0;
+  border-radius:10px;
 }
 
 @keyframes scroll {
